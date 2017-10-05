@@ -1,3 +1,7 @@
+#Utils
+Used for JitPack PoC
+
 https://stackoverflow.com/questions/20161602/loading-maven-dependencies-from-github
 
-![Release](https://jitpack.io/v/leegphillips/Utils.svg) - https://jitpack.io/#leegphillips/Utils
+<a class="badge-align" href="https://travis-ci.org/leegphillips/Utils"><img src="https://travis-ci.org/leegphillips/Utils.svg?branch=master"/></a>
+
