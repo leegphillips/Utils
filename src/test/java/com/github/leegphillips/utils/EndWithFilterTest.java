@@ -1,7 +1,5 @@
 package com.github.leegphillips.utils;
 
-import com.github.leegphillips.utils.EndWithFilter;
-import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
@@ -27,11 +25,7 @@ public class EndWithFilterTest {
     @Test
     public void testNegative() throws IOException {
         String value = "value";
-        File test = folder.newFile("start");
         EndWithFilter endWithFilter = new EndWithFilter(value);
         assertEquals(folder.getRoot().listFiles(endWithFilter).length, 0);
     }
-
-
-
 }
